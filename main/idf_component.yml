@@ -1,0 +1,6 @@
+## IDF Component Manager Manifest File
+dependencies:
+  idf:
+    version: ">=5.0.0"
+  # TinyUSB moved out of ESP-IDF core in v5.x. usbcdc.c uses the 1.x API.
+  espressif/esp_tinyusb: "~1.7.0"
